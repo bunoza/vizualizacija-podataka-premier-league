@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+        .info-container {
+            display: flex;
+            justify-content: space-between;
+            flex-flow: row wrap;
+        }
+
+        .axis {
+            font: 10px sans-serif;
+        }
+
+        g {
+            color: black;
+        }
+
+        div.tooltip {
+            position: absolute;
+            text-align: center;
+            width: 60px;
+            height: 40px;
+            padding: 2px;
+            font: 12px sans-serif;
+            border: 0px;
+            border-radius: 8px;
+            pointer-events: none;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: geometricPrecision;
+        }
+
+        .bb {
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+        }
+
+        .b--black-20 {
+            border-color: rgba(0, 0, 0, .2);
+        }
+
+        .fw6 {
+            font-weight: 600;
+        }
+
+        .lh-copy {
+            line-height: 1.5;
+        }
+
+        .mw8 {
+            max-width: 64rem;
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .overflow-auto {
+            overflow: auto;
+        }
+
+        .bg-white {
+            background-color: #fff;
+        }
+
+        .pa4 {
+            padding: 2rem;
+        }
+
+        .pr3 {
+            padding-right: 1rem;
+        }
+
+        .pb3 {
+            padding-bottom: 1rem;
+        }
+
+        .pv3 {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .tl {
+            text-align: left;
+        }
+
+        .f6 {
+            font-size: .875rem;
+        }
+
+        .center {
+            margin-right: auto;
+            margin-left: auto;
+        }
+    </style>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+    <script type="module" src="index.js"></script>
+</body>
